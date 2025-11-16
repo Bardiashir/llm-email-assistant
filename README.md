@@ -38,31 +38,12 @@ Python / Pandas / NumPy
 
 Prompt Engineering for reply tone + autocomplete
 
-📂 Project Structure
-llm-email-assistant/
-│
-├─ app/
-│  ├─ main.py              # FastAPI endpoints
-│  ├─ rag_pipeline.py      # Retrieval + generation logic
-│  ├─ embeddings_store.py  # FAISS search + embedding calls
-│  ├─ prompts.py           # Prompt templates
-│  └─ models.py            # Request/response models
-│
-├─ scripts/
-│  └─ build_index.py       # Builds embeddings + FAISS index
-│
-├─ data/
-│  └─ emails.csv           # Sample dataset (user-provided)
-│
-├─ requirements.txt
-|
-└─ README.md
 
 ⚙️ Setup
 1. Create virtual environment
 python -m venv venv
 venv\Scripts\activate          # Windows
-# or
+
 source venv/bin/activate       # Mac/Linux
 
 2. Install dependencies
